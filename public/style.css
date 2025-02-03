@@ -1,1 +1,50 @@
-/* Write your code from here
+
+body {
+    background: black;
+    color: white;
+}
+
+#quiz {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.option {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #2d2d2d;
+    transition: all 0.3s ease;
+}
+
+.option:hover {
+    background: #3d3d3d;
+}
+
+.selected {
+    background: #004a99;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #1a5928;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #236b32;
+}
